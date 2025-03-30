@@ -24,12 +24,12 @@ const projectsData = [
   {
     id: 1,
     projectTitle: 'College of Engineering & Architecture Statistics System',
-    img: '../public/images/cea/login.png',
+    img: './public/images/cea/login.png',
     gallery: [
-      '../public/images/cea/login.png',
-      '../public/images/cea/localhost_5173_dashboard (2).png',
-      '../public/images/cea/localhost_5173_dashboard (4).png',
-      '../public/images/cea/localhost_5173_dashboard.png',
+      './public/images/cea/login.png',
+      './public/images/cea/localhost_5173_dashboard (2).png',
+      './public/images/cea/localhost_5173_dashboard (4).png',
+      './public/images/cea/localhost_5173_dashboard.png',
     ],
     briefDescription:
       'Not yet published. A full-stack web application that allows the users to view the statistics of the CEA Board Exam. Add students, export data, and more.',
@@ -44,8 +44,8 @@ const projectsData = [
   {
     id: 2,
     projectTitle: 'E-Commerce Platform',
-    img: '../public/images/e-commerce/e-commerce.png',
-    gallery: ['../public/images/e-commerce/e-commerce.png'],
+    img: './public/images/e-commerce/e-commerce.png',
+    gallery: ['./public/images/e-commerce/e-commerce.png'],
     briefDescription:
       'A simple e-commerce platform frontend only. Add products, add to cart, checkout, and more.',
     description:
@@ -59,8 +59,8 @@ const projectsData = [
   {
     id: 3,
     projectTitle: 'QR Code Generator',
-    img: '../public/images/qr-code/qr.png',
-    gallery: ['../public/images/qr-code/qr.png'],
+    img: './public/images/qr-code/qr.png',
+    gallery: ['./public/images/qr-code/qr.png'],
     briefDescription: 'QR Code Generator for your text or links.',
     description:
       'Created a QR Code Generator. Generate QR Code for your text, link, or image.',
@@ -73,8 +73,8 @@ const projectsData = [
   {
     id: 4,
     projectTitle: 'Pomodoro Timer',
-    img: '../public/images/pomodoro/pomodoro.png',
-    gallery: ['../public/images/pomodoro/pomodoro.png'],
+    img: './public/images/pomodoro/pomodoro.png',
+    gallery: ['./public/images/pomodoro/pomodoro.png'],
     briefDescription:
       'A Pomodoro Timer. Helps you focus on your work and improve your productivity.',
     description:
@@ -89,8 +89,8 @@ const projectsData = [
   {
     id: 5,
     projectTitle: 'Image Color Picker',
-    img: '../public/images/image-color-picker/image-color-picker.png',
-    gallery: ['../public/images/image-color-picker/image-color-picker.png'],
+    img: './public/images/image-color-picker/image-color-picker.png',
+    gallery: ['./public/images/image-color-picker/image-color-picker.png'],
     briefDescription: 'Easily pick the color of the image you want.',
     description: 'Image Color Picker. Pick the color of the image you want.',
     techUsed: ['React', 'Tailwind CSS'],
@@ -102,8 +102,8 @@ const projectsData = [
   {
     id: 6,
     projectTitle: 'Cagayan de Oro City Teenage Pregnancy Problem',
-    img: '../public/images/teenage-preg/teenage-preg.png',
-    gallery: ['../public/images/teenage-preg/teenage-preg.png'],
+    img: './public/images/teenage-preg/teenage-preg.png',
+    gallery: ['./public/images/teenage-preg/teenage-preg.png'],
     briefDescription:
       'A simple blog website that highlights the teenage pregnancy problem in the city of Cagayan de Oro.',
     description:
@@ -117,8 +117,8 @@ const projectsData = [
   {
     id: 7,
     projectTitle: 'ToDo List',
-    img: '../public/images/todo-list/todo-list.png',
-    gallery: ['../public/images/todo-list/todo-list.png'],
+    img: './public/images/todo-list/todo-list.png',
+    gallery: ['./public/images/todo-list/todo-list.png'],
     briefDescription:
       'A simple ToDo List. Add your tasks, and mark them as completed.',
     description:
@@ -132,8 +132,8 @@ const projectsData = [
   {
     id: 8,
     projectTitle: 'Merge Multiple PDF Files',
-    img: '../public/images/merge-pdf/merge-pdf.png',
-    gallery: ['../public/images/merge-pdf/merge-pdf.png'],
+    img: './public/images/merge-pdf/merge-pdf.png',
+    gallery: ['./public/images/merge-pdf/merge-pdf.png'],
     briefDescription:
       'Merge Multiple PDF Files. Merge multiple PDF files into one.',
     description: 'Merge Multiple PDF Files. Merge multiple PDF files into one.',
@@ -146,8 +146,8 @@ const projectsData = [
   {
     id: 9,
     projectTitle: 'JavaScript Obfuscator',
-    img: '../public/images/javascript-obfuscate/javascript-obfuscate.png',
-    gallery: ['../public/images/javascript-obfuscate/javascript-obfuscate.png'],
+    img: './public/images/javascript-obfuscate/javascript-obfuscate.png',
+    gallery: ['./public/images/javascript-obfuscate/javascript-obfuscate.png'],
     briefDescription: 'JavaScript Obfuscator. Obfuscate your JavaScript code.',
     description: 'JavaScript Obfuscator. Obfuscate your JavaScript code.',
     techUsed: ['React', 'Tailwind CSS'],
@@ -164,8 +164,8 @@ const collaborationsData = [
     id: 1,
     description:
       'Collaborated with Jayson, a student - aspiring computer engineer, to develop a School - Club Finder. A simple website that allows you to find the club you want to join in your school.',
-    img: '../public/images/club-finder/club-finder.png',
-    gallery: ['../public/images/club-finder/club-finder.png'],
+    img: './public/images/club-finder/club-finder.png',
+    gallery: ['./public/images/club-finder/club-finder.png'],
     partner: {
       name: 'Jayson',
       role: 'Student - Aspiring Computer Engineer',

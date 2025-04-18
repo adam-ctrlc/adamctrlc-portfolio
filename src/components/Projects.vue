@@ -14,38 +14,45 @@
         <code>frontend</code>. will be uploading backend projects soon.
       </p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       <!-- Render Project Cards -->
       <div
         v-for="project in projects"
         :key="project.id"
-        class="border border-gray-200 rounded-xl p-4 sm:p-6 hover:border-emerald-600 transition-colors flex flex-col gap-3 sm:gap-4"
+        class="border border-gray-200 rounded-xl p-3 sm:p-4 hover:border-emerald-600 transition-colors grid grid-rows-[auto_1fr_auto] gap-3 sm:gap-4"
       >
-        <!-- Add lazy loading for images -->
+        <!-- Row 1: Image -->
         <img
           :src="project.img"
           :alt="project.projectTitle"
-          class="w-full h-40 sm:h-48 md:h-56 object-cover rounded-lg"
+          class="w-full h-48 object-cover rounded-lg"
           loading="lazy"
         />
-        <div class="flex-1 flex flex-col gap-2 sm:gap-3">
+
+        <!-- Row 2: Content -->
+        <div class="flex flex-col gap-2 sm:gap-3">
           <h3 class="text-lg sm:text-xl font-medium text-gray-800 mb-1 sm:mb-2">
             {{ project.projectTitle }}
           </h3>
-          <p class="text-gray-600 text-sm sm:text-base mb-2 sm:mb-3">
+          <p
+            class="text-gray-600 text-sm sm:text-base mb-2 sm:mb-3 overflow-hidden line-clamp-3"
+          >
             {{ project.briefDescription }}
           </p>
-          <div class="flex flex-wrap gap-1 sm:gap-2 mt-1 sm:mt-2">
-            <span
-              v-for="tech in project.techUsed"
-              :key="tech"
-              class="bg-gray-100 text-gray-600 px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm"
-            >
-              {{ tech }}
-            </span>
+          <div class="overflow-hidden max-h-14">
+            <div class="flex flex-wrap gap-1 sm:gap-2 mt-1 sm:mt-2">
+              <span
+                v-for="tech in project.techUsed"
+                :key="tech"
+                class="bg-gray-100 text-gray-600 px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm"
+              >
+                {{ tech }}
+              </span>
+            </div>
           </div>
         </div>
 
+        <!-- Row 3: Buttons -->
         <div class="flex flex-wrap gap-2 mt-1 sm:mt-2">
           <!-- Conditional Demo Button/Link -->
           <button

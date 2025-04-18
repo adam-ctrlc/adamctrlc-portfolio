@@ -9,7 +9,6 @@
       <SkillsSection />
       <ProjectsSection />
       <AboutSection />
-      <CollaborationsSection />
       <ContactSection />
     </main>
   </div>
@@ -22,7 +21,6 @@ import LandingSection from './components/Landing.vue';
 import SkillsSection from './components/Skills.vue';
 import ProjectsSection from './components/Projects.vue';
 import AboutSection from './components/About.vue';
-import CollaborationsSection from './components/Collaborations.vue';
 import ContactSection from './components/Contact.vue';
 
 // You might want to add global setup here later, e.g., for smooth scroll polyfill or data fetching

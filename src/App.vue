@@ -20,7 +20,7 @@ import AppHeader from './components/Header.vue';
 import LandingSection from './components/Landing.vue';
 import SkillsSection from './components/Skills.vue';
 import ProjectsSection from './components/Projects.vue';
-import AboutSection from './components/About.vue';
+import AboutSection from './components/About.vue';    
 import ContactSection from './components/Contact.vue';
 
 // You might want to add global setup here later, e.g., for smooth scroll polyfill or data fetching

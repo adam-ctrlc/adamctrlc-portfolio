@@ -14,7 +14,7 @@
         <code>frontend</code>. will be uploading backend projects soon.
       </p>
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="grid grid-cols-2 lg:grid-cols-4 lg:gap-4 gap-2">
       <!-- Render Project Cards -->
       <div
         v-for="project in projects"
@@ -53,12 +53,12 @@
         </div>
 
         <!-- Row 3: Buttons -->
-        <div class="flex flex-wrap gap-2 mt-1 sm:mt-2">
+        <div class="flex flex-col lg:flex-row sm:flex-wrap gap-2 mt-1 sm:mt-2">
           <!-- Conditional Demo Button/Link -->
           <button
             v-if="project.demo === 'Not Open Source'"
             @click="handleNotOpenSourceClick(project)"
-            class="bg-emerald-600 text-white px-2 sm:px-4 py-1.5 sm:py-2 rounded-lg font-medium hover:bg-emerald-700 transition-colors text-xs sm:text-sm"
+            class="bg-emerald-600 text-white px-4 py-2 flex-1 rounded-lg font-medium hover:bg-emerald-700 transition-colors text-sm"
             :aria-label="`View Demo Information for ${project.projectTitle}`"
           >
             View Demo
@@ -66,7 +66,7 @@
           <a
             v-else
             :href="project.demo !== '#' ? project.demo : undefined"
-            class="bg-emerald-600 text-white px-2 sm:px-4 py-1.5 sm:py-2 rounded-lg font-medium hover:bg-emerald-700 transition-colors text-xs sm:text-sm"
+            class="bg-emerald-600 text-center text-white px-4 py-2 flex-1 rounded-lg font-medium hover:bg-emerald-700 transition-colors text-sm"
             :class="{
               'opacity-50 cursor-not-allowed pointer-events-none':
                 project.demo === '#',
@@ -81,7 +81,7 @@
           </a>
           <button
             @click="handleDetailsClick(project)"
-            class="border border-emerald-600 text-emerald-600 px-2 sm:px-4 py-1.5 sm:py-2 rounded-lg font-medium hover:bg-emerald-50 transition-colors text-xs sm:text-sm"
+            class="border border-emerald-600 text-emerald-600 px-4 py-2 rounded-lg font-medium hover:bg-emerald-50 transition-colors text-sm flex-1"
             :aria-label="`View Details for ${project.projectTitle}`"
           >
             Details

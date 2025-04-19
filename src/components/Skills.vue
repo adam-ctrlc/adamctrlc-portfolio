@@ -29,7 +29,7 @@
           </div>
           <h3 class="text-xl font-medium capitalize">{{ category }}</h3>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-3">
           <!-- Render skills within category -->
           <div
             v-for="skill in skills"

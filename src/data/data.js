@@ -156,6 +156,46 @@ const projectsData = [
     },
     demo: 'https://javascript-obfuscate.vercel.app/',
   },
+  {
+    id: 10,
+    projectTitle: 'Anime Website',
+    img: '/images/anime/adamctrlc-animewebsite.vercel.app_.png',
+    gallery: [
+      '/images/anime/adamctrlc-animewebsite.vercel.app_ (1).png',
+      '/images/anime/adamctrlc-animewebsite.vercel.app_ (2).png',
+      '/images/anime/adamctrlc-animewebsite.vercel.app_ (3).png',
+      '/images/anime/adamctrlc-animewebsite.vercel.app_ (4).png',
+    ],
+    briefDescription:
+      'Discover and explore trending, popular, and latest anime.',
+    description:
+      'This anime website utilizes the Kitsu API to fetch anime data. It features a search bar, trending anime listings, and detailed anime views that mimic popular anime streaming platforms.',
+    techUsed: ['Next.js', 'Tailwind CSS'],
+    links: {
+      viewCode: 'https://adamctrlc-animewebsite.vercel.app/',
+    },
+    demo: 'https://adamctrlc-animewebsite.vercel.app/',
+  },
+  {
+    id: 11,
+    projectTitle: 'Manga Website',
+    img: '/images/manga/adamctrlc-find-manga.vercel.app_.png',
+    gallery: [
+      '/images/manga/adamctrlc-find-manga.vercel.app_ (1).png',
+      '/images/manga/adamctrlc-find-manga.vercel.app_ (2).png',
+      '/images/manga/adamctrlc-find-manga.vercel.app_ (3).png',
+      '/images/manga/adamctrlc-find-manga.vercel.app_ (4).png',
+    ],
+    briefDescription:
+      'Browse and search through an extensive manga collection.',
+    description:
+      'This manga website utilizes the Kitsu API to fetch manga data. It features a search bar, trending manga listings, and also mimics the functionality of popular manga websites.',
+    techUsed: ['Next.js', 'Tailwind CSS'],
+    links: {
+      viewCode: 'https://adamctrlc-find-manga.vercel.app/',
+    },
+    demo: 'https://adamctrlc-find-manga.vercel.app/',
+  },
 ];
 
 // --- Collaborations Data ---
